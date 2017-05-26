@@ -3,10 +3,72 @@
 }
 
 #social-header {
+    color: #fff;
     background-color: #1a80b6;
-    min-height: 2.6875rem;
+    min-height: 1.5rem;
+    font-size: 8px;
 }
 
 #banner img {
-    margin: 1.8rem auto;
+    margin: 1.2rem auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#nav {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#nav ul {
+    margin: 0;
+    font-size: 8px;
+}
+
+#nav li {
+    padding: .4rem 0;
+}
+
+#nav li:first-child {
+    padding-left: 0;
+}
+#nav li:last-child {
+    padding-right: 0;
+}
+
+#carousel {
+     background-color: #d2d3d4;
+}
+
+.card {
+    width: 30%;
+    padding: 0;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0;
+ }
+
+.card h4 {
+    color: #fff;
+    font-size: 1.1rem;
+    padding-bottom: .4rem;
+    margin-bottom: 0;
+    display: inline-block;
+    background-color: #1a80b6;
+}
+
+.card p {
+    margin: 0;
+    font-size: .5rem;
+    font-weight: 700;
+}
+
+.card img {
+    margin: 0 auto;
+    padding: .2rem;
+    width: 100px;
+ }
+
+#water-facts {
+    margin: 3rem 0;
 }
