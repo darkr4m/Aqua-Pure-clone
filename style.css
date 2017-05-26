@@ -4,5 +4,9 @@
 
 #social-header {
     background-color: #1a80b6;
-    min-height: 3rem;
+    min-height: 2.6875rem;
+}
+
+#banner img {
+    margin: 1.8rem auto;
 }
